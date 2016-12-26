@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{537AD0BA-EAED-4264-B09D-0FB9DA37BD23}</ProjectGuid>
+    <ProjectGuid>{29228554-DD26-4D47-BB93-932D6A25A84D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sertification_40_483_Background_worker</RootNamespace>
-    <AssemblyName>Sertification 40-483 Background worker</AssemblyName>
+    <RootNamespace>Sertification_40_483.Reflection</RootNamespace>
+    <AssemblyName>Sertification 40-483.Reflection</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\BackgroundWorkerTest.cs" />
+    <Compile Include="Classes\Assebmly.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,19 +10,21 @@ namespace Sertification_40_483_delegates
     {
         static void Main(string[] args)
         {
-            Action test = () => Console.WriteLine("Hello");
+            //Action action = () => Console.WriteLine("Hello");
 
-            Func<int, int> test2 = (r) => { return r; };
+            //Func<int, int> func = (r) => { return r; };
 
-            var arr = new int[] { 1, 2, 3, 4, 5, 6, 7 };
+            //var arr = new int[] { 1, 2, 3, 4, 5, 6, 7 };
 
-            Func<int, int> test3 = (r) => r;
+            //Func<int, int> func2 = (r) => r;
 
-            var i = test2(3);
+            //var i = func(3);
+            //Console.WriteLine(i);
 
-            Console.WriteLine(i);
-
-            test();
+            //i = func2(3);
+            //Console.WriteLine(i);
+            //action();
+            DelegatesClass.Test();
         }
     }
 }
